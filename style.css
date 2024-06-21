@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap') @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') * {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(222, 222, 235);
+    width: 12vw;
+    font-family: "Merriweather", serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 10px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 19px;
+    padding: 15px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: bisque; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 80px;
+
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 45px;
+    font-style: inherit;
+    font-family: "Roboto", sans-serif;
+}
+.aboutmore{
+    font-size: 17px;
+    font-style: inherit;
+    font-family: "Roboto", sans-serif;
+}
+
+.button button {
+    font-size: 18px;
+    background-color: #6867e7;
+    border-radius: 9px;
+    cursor: pointer;
+    margin: 10px;
+}
+.button button:hover{
+    background-color: rgb(183, 187, 243);
+}
+
+.infocontainer {
+    /* background: #7dc1ee; */
+    height: 75vh;
+    width: 80vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 75vh;
+}
